@@ -3,9 +3,9 @@ package company.category;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-public class Electronics extends Category{
+public class Electronic extends Category{
 
-    public Electronics(UUID id, String name) {
+    public Electronic(UUID id, String name) {
         super(id, name);
     }
 
