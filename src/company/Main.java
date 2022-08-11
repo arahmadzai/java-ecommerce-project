@@ -6,6 +6,7 @@ public class Main {
 
         DataGenerator.createCustomer();
         DataGenerator.createCategory();
+        DataGenerator.createProduct();
 
 
 
