@@ -52,6 +52,7 @@ public class Product {
         return categoryId;
     }
 
+    //we need to create getCategory method to get the product category
     public String getCategoryName() throws Exception {
 
         for(Category category : StaticConstants.CATEGORY_LIST){
@@ -59,7 +60,7 @@ public class Product {
                 return category.getName();
             }
         }
-        throw new Exception("Category not found," + getName());
+        throw new Exception("Category not found, " + getName());
 
     }
 
